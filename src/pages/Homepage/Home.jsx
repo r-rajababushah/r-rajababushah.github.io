@@ -15,7 +15,7 @@ const Home = () => {
             </div>
 
             <div className="profile-details">
-                <h3><big className='nameTitle'>ରାଜାବାବୁ ଶାହ</big> : <sm className="work">Youtuber | Web Developer | Traveller </sm></h3>
+                <h3><big className='nameTitle'>ରାଜାବାବୁ ଶାହ</big> : <sm className="work"> Web Developer </sm></h3>
                 <hr style={{ borderColor: "black" }} />
                 <table>
                     <tbody>
@@ -35,7 +35,7 @@ const Home = () => {
                                 </span>
                                 Address
                             </td>
-                            <td className='value'>Lucknow, India</td>
+                            <td className='value'>New Delhi, India</td>
                         </tr>
                         <tr>
                             <td className='index'>
