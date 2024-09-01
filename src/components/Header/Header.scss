@@ -22,7 +22,7 @@ $backColor: rgb(0, 0, 0);
 
         ul {
             display: flex;
-            flex-direction: column;
+            flex-flow: column wrap;
             width: 100%;
 
             li {
