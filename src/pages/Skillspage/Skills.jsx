@@ -35,12 +35,28 @@ function Skills() {
                     <div className="bar">
                         <ProgressBar value={`60%`} bgColor={'blue'} />
                     </div>
+                    {/* C language  */}
+                    <div className="skill">
+                        <p>C</p>
+                        <p>85%</p>
+                    </div>
+                    <div className="bar">
+                        <ProgressBar value={`85%`} bgColor={'black'} />
+                    </div>
                     <div className="skill">
                         <p>ReactJS</p>
                         <p>75%</p>
                     </div>
                     <div className="bar">
-                        <ProgressBar value={`75%`} bgColor={'pink'} />
+                        <ProgressBar value={`90%`} bgColor={'yellow'} />
+                    </div>
+                    <div className="skill">
+                        <p>Python</p>
+                        <p>90%</p>
+                    </div>
+
+                    <div className="bar">
+                        <ProgressBar value={`95%`} bgColor={'pink'} />
                     </div>
                     <div className="skill">
                         <p>Bootstrap</p>

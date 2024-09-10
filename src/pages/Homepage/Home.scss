@@ -13,9 +13,11 @@ $redColor: rgb(255, 0, 0);
         justify-content: center;
 
         #profile-img {
-            height: 300px;
-            width: 350px;
+            margin-top: 5px;
+            height: 250px;
+            width: 300px;
             border-radius: 10px;
+            border: 2px solid black;
         }
     }
 

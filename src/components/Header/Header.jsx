@@ -74,7 +74,7 @@ function Header() {
                             CONTACT
                         </NavLink>
                     </li>
-                    <li>
+                    {/* <li>
                         <NavLink
                             to="/downloads"
                             style={({ isActive }) => {
@@ -85,7 +85,7 @@ function Header() {
                         >
                             DOWNLOADS
                         </NavLink>
-                    </li>
+                    </li> */}
                 </ul>
             </nav>
             <Outlet />

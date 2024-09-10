@@ -11,6 +11,7 @@ $backColor: rgb(0, 0, 0);
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
+        padding-top: 10px;
 
         label {
             text-align: center;
@@ -23,14 +24,16 @@ $backColor: rgb(0, 0, 0);
 
         ul {
             display: flex;
+            justify-content: space-between;
             flex-flow: row wrap;
             width: 100%;
 
             li {
-                font-size: 13px;
+                font-size: 15px;
                 padding: 5px;
 
                 a {
+                    font-family: 'Courier New', Courier, monospace;
                     .switch-lang {
                         position: relative;
                         display: inline-block;
@@ -64,6 +67,7 @@ $backColor: rgb(0, 0, 0);
 
             label {
                 margin-left: 100px;
+                margin-right: 200px;
 
                 a {
                     font-size: 40px;
