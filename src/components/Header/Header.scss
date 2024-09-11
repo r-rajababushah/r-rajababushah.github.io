@@ -11,10 +11,11 @@ $backColor: rgb(0, 0, 0);
         flex-direction: column;
         justify-content: space-between;
         width: 100%;
-        padding-top: 10px;
+        padding: 10px auto;
 
         label {
             text-align: center;
+
 
             a {
                 font-size: 25px;
