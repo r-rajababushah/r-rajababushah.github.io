@@ -38,10 +38,13 @@ function Skills() {
                     {/* C language  */}
                     <div className="skill">
                         <p>C</p>
-                        <p>85%</p>
+                        <p>95%</p>
                     </div>
                     <div className="bar">
                         <ProgressBar value={`85%`} bgColor={'black'} />
+                    </div>
+                    <div className="bar">
+                        <ProgressBar value={`95%`} bgColor={'red'} />
                     </div>
                     <div className="skill">
                         <p>ReactJS</p>
