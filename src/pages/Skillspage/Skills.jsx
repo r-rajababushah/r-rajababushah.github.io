@@ -43,6 +43,10 @@ function Skills() {
                     <div className="bar">
                         <ProgressBar value={`85%`} bgColor={'black'} />
                     </div>
+                    <div className="skill">
+                        <p>Java</p>
+                        <p>95%</p>
+                    </div>
                     <div className="bar">
                         <ProgressBar value={`95%`} bgColor={'red'} />
                     </div>
